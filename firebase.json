@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/DragAndDropMultiSelectAngular",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
